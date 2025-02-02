@@ -1,0 +1,176 @@
+/*importa fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*esto es para una clase*/
+*{                                  
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* BODY*/
+
+/*esto es para ocupar el 100% de pantalla*/
+body {
+    background-color:#000000;
+    color: #FDFDFE;
+    box-sizing: border-box;
+}
+
+/* HEADER*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 6% 1% 2%;
+    background-color:#11CAD5;
+}
+
+
+.header__menu{
+    display: flex;
+    gap: 40px;    
+}
+
+.header__menu__link:hover{
+    color: #f8f8f8;
+}
+
+.header__menu__link{
+    display: flex;
+    align-items: center;
+    font-family: "Oswald", serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+.presentacion{
+    display:flex;
+    align-items: center;
+    padding: 5% 1%;
+    justify-content: space-between;
+    
+}
+
+.presentacion__contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0% 10% 0% 0%;
+    
+}
+
+/*esto es una clase*/
+.titulo__presentacion__destacado {                 
+    color: #11CAD5; 
+}
+
+.titulo__presentacion{
+    font-family: "Oswald", serif;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.titulo2__presentacion{
+    font-family: "Oswald", serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.presentacion__contenido{
+    display: block;                
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    width: 700px; /* o el tamaño que desees */
+    text-align: justify;
+    text-justify: inter-word;
+    
+        
+}
+
+
+
+/* cuadra el parrafo*/
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6; /* Ajusta el interlineado dentro del párrafo */
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.presentacion__botones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+        
+}
+
+
+.presentacion__enlaces{
+    font-family: "Oswald", serif;
+    font-size: 25px;
+    
+}
+
+.titulo__enlaces{
+    font-family: "Roboto", serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 0% 4%;
+        
+}
+
+.presentacion{
+    display:flex;
+    align-items: center;
+    padding: 0% 10% 15% 5% ;
+    justify-content: space-between;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 280px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    text-decoration: 0;
+    color: #FDFDFE;
+    border: 2px solid #FE5D00
+    
+
+}
+
+.botones:hover{
+    background-color: #222222;
+}
+
+/* FOOTER*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #FE5D00;
+    color: #000000;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+}

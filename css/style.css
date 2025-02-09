@@ -16,6 +16,8 @@ body {
     background-color:#000000;
     color: #FDFDFE;
     box-sizing: border-box;
+    
+
 }
 
 /* HEADER*/
@@ -24,15 +26,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 6% 1% 2%;
+    padding: 0% 2% 0% 0%;
     background-color:#11CAD5;
 }
 
+.header__logo{
+    display: flex;
+    padding: 0% 0% 0% 50%;    
+}
 
 .header__menu{
     display: flex;
-    gap: 40px;    
+    gap: 24px;
+    padding: 2% 5% 2% 0%;    
 }
+
+
 
 .header__menu__link:hover{
     color: #f8f8f8;
@@ -43,40 +52,41 @@ body {
     align-items: center;
     font-family: "Oswald", serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 24px;
     color: #000000;
     text-decoration: none;
 }
 
 
-
 .presentacion{
     display:flex;
-    align-items: center;
-    padding: 5% 1%;
+    align-items:center;
     justify-content: space-between;
     
 }
 
 .presentacion__contenido{
-    width: 615px;
+    width: 620px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 0% 10% 0% 0%;
+    padding: 0% 2% 0%4%;
     
 }
+
 
 /*esto es una clase*/
 .titulo__presentacion__destacado {                 
     color: #11CAD5; 
+    
 }
 
 .titulo__presentacion{
     font-family: "Oswald", serif;
     font-size: 36px;
     margin-top: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    
 }
 
 .titulo2__presentacion{
@@ -87,11 +97,15 @@ body {
     
 }
 
+.imagen__seccion {
+    padding-top: 0%;
+}
+
 .presentacion__contenido{
     display: block;                
     font-family: "Roboto", serif;
     font-size: 20px;
-    width: 700px; /* o el tamaño que desees */
+    width: 500px; /* o el tamaño que desees */
     text-align: justify;
     text-justify: inter-word;
     
